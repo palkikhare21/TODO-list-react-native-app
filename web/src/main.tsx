@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { CalendarClock, CheckCircle2, LayoutList, LogOut, Plus, ShieldCheck, Sparkles, Trash2 } from 'lucide-react';
 import './styles.css';
 
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://todo-list-react-native-app.onrender.com';
 const LOCAL_TOKEN = 'local-demo-token';
 const LOCAL_TASKS_KEY = 'todo_demo_tasks';
 

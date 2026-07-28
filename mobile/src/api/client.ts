@@ -1,6 +1,6 @@
 import { getToken } from '../utils/storage';
 
-export const API_BASE_URL = 'http://10.0.2.2:3000';
+export const API_BASE_URL = 'https://todo-list-react-native-app.onrender.com';
 
 type RequestOptions = {
   method?: 'GET' | 'POST' | 'PATCH' | 'DELETE';

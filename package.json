@@ -1,0 +1,17 @@
+{
+  "name": "todo-internship-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:web": "cd web && npm install",
+    "install:mobile": "cd mobile && npm install",
+    "backend": "cd backend && npm run start:dev",
+    "web": "cd web && npm run dev",
+    "mobile": "cd mobile && npm run android",
+    "start": "npm run backend",
+    "typecheck:backend": "cd backend && npm run typecheck",
+    "build:web": "cd web && npm run build",
+    "typecheck:mobile": "cd mobile && npm run typecheck"
+  }
+}
